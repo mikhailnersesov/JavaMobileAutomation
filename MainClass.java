@@ -4,9 +4,5 @@ public class MainClass {
     public static int getLocalNumber() {
         return actual;
     }
-
-    public static void main(String[] args) {
-        getLocalNumber();
-    }
 }
 
