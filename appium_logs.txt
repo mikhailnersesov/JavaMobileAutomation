@@ -1,0 +1,1084 @@
+
+The server is running
+
+[ADB] Getting package info for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+[ADB] Current device property 'ro.build.version.sdk': 26
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","dump","io.appium.settings"]
+[ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[AndroidDriver] Pushing unlock helper app to device...
+[ADB] Getting install status for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.unlock"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.unlock"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+[ADB] Current device property 'ro.product.model': Android SDK built for x86
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+[ADB] Current device property 'ro.product.manufacturer': Google
+[AndroidDriver] Remote apk path is /data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk"]
+[AndroidDriver] Checking if app is installed
+[ADB] Getting install status for org.wikipedia
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","org.wikipedia"]
+[ADB] App is installed
+[AndroidDriver] Apk is already on remote and installed, resetting
+[AndroidDriver] Running fast reset (stop and clear)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","clear","org.wikipedia"]
+[AndroidDriver] Extracting strings from apk C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk undefined C:\Users\MIKHAI~1\AppData\Local\Temp\org.wikipedia
+[ADB] Extracting strings for language: default
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.locale"]
+[ADB] Current device property 'persist.sys.locale': 
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.locale"]
+[ADB] Current device property 'ro.product.locale': en-US
+[ADB] No strings.xml for language 'en', getting default strings.xml
+[ADB] Reading strings from converted strings.json
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\MIKHAI~1\\AppData\\Local\\Temp\\org.wikipedia\\strings.json","/data/local/tmp"]
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4724","tcp:4724"]
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\Mikhail Nersesov\\AppData\\Local\\appium-desktop\\app-1.5.0\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","org.wikipedia","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","org.wikipedia/.main.MainActivity","-S"]
+[Appium] New AndroidDriver session created successfully, session 6ac33a0e-e072-45ad-ac92-48cbd0cd3950 added to master session list
+[BaseDriver] Event 'newSessionStarted' logged at 1620907618616 (14:06:58 GMT+0200 (Mitteleuropäische Sommerzeit))
+[MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[HTTP] <-- POST /wd/hub/session 200 12382 ms - 931 
+[HTTP] --> POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/element {"using":"xpath","value":"//*[contains(@text,'Search Wikipedia')]"}
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'Search Wikipedia')]","6ac33a0e-e072-45ad-ac92-48cbd0cd3950"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search Wikipedia')]","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search Wikipedia')]","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search Wikipedia')]' using 'XPATH' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[HTTP] <-- POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/element 200 914 ms - 87 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[HTTP] --> POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/element/1/click {"id":"1"}
+[MJSONWP] Calling AppiumDriver.click() with args: ["1","6ac33a0e-e072-45ad-ac92-48cbd0cd3950"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/element/1/click 200 155 ms - 76 
+[HTTP] --> POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","6ac33a0e-e072-45ad-ac92-48cbd0cd3950"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"2"}]
+[HTTP] <-- POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/elements 200 1009 ms - 89 
+[HTTP] --> POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/element/2/value {"id":"2","value":["Appium"]}
+[MJSONWP] Calling AppiumDriver.setValue() with args: [["Appium"],"2","6ac33a0e-e072-45ad-ac92-48cbd0cd3950"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"Appium","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"Appium","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Appium
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[MJSONWP] Responding to client with driver.setValue() result: true
+[HTTP] <-- POST /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950/element/2/value 200 5473 ms - 76 
+[HTTP] --> DELETE /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950 {}
+[MJSONWP] Calling AppiumDriver.deleteSession() with args: ["6ac33a0e-e072-45ad-ac92-48cbd0cd3950"]
+[BaseDriver] Event 'quitSessionRequested' logged at 1620907626280 (14:07:06 GMT+0200 (Mitteleuropäische Sommerzeit))
+[Appium] Removing session 6ac33a0e-e072-45ad-ac92-48cbd0cd3950 from our master session list
+[AndroidDriver] Shutting down Android driver
+[ADB] Getting connected devices...
+[ADB] Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+ Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[Appium] Had trouble ending session 6ac33a0e-e072-45ad-ac92-48cbd0cd3950: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+[MJSONWP] Encountered internal error running command: Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[HTTP] <-- DELETE /wd/hub/session/6ac33a0e-e072-45ad-ac92-48cbd0cd3950 500 82 ms - 285 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},{},{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+[BaseDriver] Event 'newSessionRequested' logged at 1620907772567 (14:09:32 GMT+0200 (Mitteleuropäische Sommerzeit))
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"appPackage":"org.wikip... into desiredCapabilities object {"appPackage":"org.wikipedia","appActivity":".m...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   appPackage: org.wikipedia
+[Appium]   appActivity: .main.MainActivity
+[Appium]   app: C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk
+[Appium]   platformVersion: 8.0.0
+[Appium]   automationName: Appium
+[Appium]   platformName: Android
+[Appium]   deviceName: AndroidTestDevice
+[BaseDriver] Session created with session id: 7c4206f2-9ac7-49a3-926c-9dbb83cbcb7b
+[AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 11.0.10
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Looking for a device with Android '8.0.0'
+[ADB] Setting device id to emulator-5554
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[AndroidDriver] Using device: emulator-5554
+[ADB] Checking whether adb is present
+[ADB] Setting device id to emulator-5554
+[BaseDriver] Using local app 'C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk'
+[AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","wait-for-device"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","echo","ping"]
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'undefined' and country: 'undefined'
+[Logcat] Starting logcat capture
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+[ADB] Current device property 'ro.build.version.sdk': 26
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","dump","io.appium.settings"]
+[ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[AndroidDriver] Pushing unlock helper app to device...
+[ADB] Getting install status for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.unlock"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.unlock"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+[ADB] Current device property 'ro.product.model': Android SDK built for x86
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+[ADB] Current device property 'ro.product.manufacturer': Google
+[AndroidDriver] Remote apk path is /data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk"]
+[AndroidDriver] Checking if app is installed
+[ADB] Getting install status for org.wikipedia
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","org.wikipedia"]
+[ADB] App is installed
+[AndroidDriver] Apk is already on remote and installed, resetting
+[AndroidDriver] Running fast reset (stop and clear)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","clear","org.wikipedia"]
+[AndroidDriver] Extracting strings from apk C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk undefined C:\Users\MIKHAI~1\AppData\Local\Temp\org.wikipedia
+[ADB] Extracting strings for language: default
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.locale"]
+[ADB] Current device property 'persist.sys.locale': 
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.locale"]
+[ADB] Current device property 'ro.product.locale': en-US
+[ADB] No strings.xml for language 'en', getting default strings.xml
+[ADB] Reading strings from converted strings.json
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\MIKHAI~1\\AppData\\Local\\Temp\\org.wikipedia\\strings.json","/data/local/tmp"]
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4724","tcp:4724"]
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\Mikhail Nersesov\\AppData\\Local\\appium-desktop\\app-1.5.0\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] Attempting to kill process 19387
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill","-0",19387]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill",19387]
+[UiAutomator] UiAutomator exited unexpectedly with code 143, signal null
+[UiAutomator] Moving to state 'stopped'
+[AndroidDriver] Shutting down Android driver
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 6ac33a0e-e072-45ad-ac92-48cbd0cd3950 from our master session list
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Pressing the HOME button
+[ADB] Getting connected devices...
+[ADB] Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+ Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill",19387]
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","kill",19387]
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","org.wikipedia","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[ADB] Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+ Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[AndroidDriver] Shutting down Android driver
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Pressing the HOME button
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","input","keyevent",3]
+[AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] Received command result from bootstrap
+[UiAutomator] Shutting down UiAutomator
+[UiAutomator] Moving to state 'stopping'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+[AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+[AndroidBootstrap] [UIAUTO STDOUT] Time: 0.55
+[AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+[UiAutomator] UiAutomator shut down normally
+[UiAutomator] Moving to state 'stopped'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Moving to state 'stopped'
+[Logcat] Stopping logcat capture
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","io.appium.unlock"]
+[AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[MJSONWP] Encountered internal error running command: Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[HTTP] <-- POST /wd/hub/session 500 12468 ms - 251 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},{},{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+[BaseDriver] Event 'newSessionRequested' logged at 1620907813169 (14:10:13 GMT+0200 (Mitteleuropäische Sommerzeit))
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"appPackage":"org.wikip... into desiredCapabilities object {"appPackage":"org.wikipedia","appActivity":".m...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   appPackage: org.wikipedia
+[Appium]   appActivity: .main.MainActivity
+[Appium]   app: C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk
+[Appium]   platformVersion: 8.0.0
+[Appium]   automationName: Appium
+[Appium]   platformName: Android
+[Appium]   deviceName: AndroidTestDevice
+[BaseDriver] Session created with session id: a9c3ce44-a3b1-4380-84a2-41d9d114070a
+[AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 11.0.10
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Looking for a device with Android '8.0.0'
+[ADB] Setting device id to emulator-5554
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[AndroidDriver] Using device: emulator-5554
+[ADB] Checking whether adb is present
+[ADB] Setting device id to emulator-5554
+[BaseDriver] Using local app 'C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk'
+[AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","wait-for-device"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","echo","ping"]
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'undefined' and country: 'undefined'
+[Logcat] Starting logcat capture
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+[ADB] Current device property 'ro.build.version.sdk': 26
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","dump","io.appium.settings"]
+[ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[AndroidDriver] Pushing unlock helper app to device...
+[ADB] Getting install status for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.unlock"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.unlock"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+[ADB] Current device property 'ro.product.model': Android SDK built for x86
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+[ADB] Current device property 'ro.product.manufacturer': Google
+[AndroidDriver] Remote apk path is /data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk"]
+[AndroidDriver] Checking if app is installed
+[ADB] Getting install status for org.wikipedia
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","org.wikipedia"]
+[ADB] App is installed
+[AndroidDriver] Apk is already on remote and installed, resetting
+[AndroidDriver] Running fast reset (stop and clear)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","clear","org.wikipedia"]
+[AndroidDriver] Extracting strings from apk C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk undefined C:\Users\MIKHAI~1\AppData\Local\Temp\org.wikipedia
+[ADB] Extracting strings for language: default
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.locale"]
+[ADB] Current device property 'persist.sys.locale': 
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.locale"]
+[ADB] Current device property 'ro.product.locale': en-US
+[ADB] No strings.xml for language 'en', getting default strings.xml
+[ADB] Reading strings from converted strings.json
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\MIKHAI~1\\AppData\\Local\\Temp\\org.wikipedia\\strings.json","/data/local/tmp"]
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4724","tcp:4724"]
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\Mikhail Nersesov\\AppData\\Local\\appium-desktop\\app-1.5.0\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","org.wikipedia","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","org.wikipedia/.main.MainActivity","-S"]
+[Appium] New AndroidDriver session created successfully, session a9c3ce44-a3b1-4380-84a2-41d9d114070a added to master session list
+[BaseDriver] Event 'newSessionStarted' logged at 1620907825906 (14:10:25 GMT+0200 (Mitteleuropäische Sommerzeit))
+[MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[HTTP] <-- POST /wd/hub/session 200 12739 ms - 931 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 551 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 76 ms - 74 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 225 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 58 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 61 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 61 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 65 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 74 ms - 74 
+[HTTP] --> POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a/elements 200 71 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a {}
+[MJSONWP] Calling AppiumDriver.deleteSession() with args: ["a9c3ce44-a3b1-4380-84a2-41d9d114070a"]
+[BaseDriver] Event 'quitSessionRequested' logged at 1620907831439 (14:10:31 GMT+0200 (Mitteleuropäische Sommerzeit))
+[Appium] Removing session a9c3ce44-a3b1-4380-84a2-41d9d114070a from our master session list
+[AndroidDriver] Shutting down Android driver
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Pressing the HOME button
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","input","keyevent",3]
+[AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] Received command result from bootstrap
+[UiAutomator] Shutting down UiAutomator
+[UiAutomator] Moving to state 'stopping'
+[UiAutomator] UiAutomator shut down normally
+[UiAutomator] Moving to state 'stopped'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Moving to state 'stopped'
+[Logcat] Stopping logcat capture
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","io.appium.unlock"]
+[AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[BaseDriver] Event 'quitSessionFinished' logged at 1620907832981 (14:10:32 GMT+0200 (Mitteleuropäische Sommerzeit))
+[MJSONWP] Received response: null
+[MJSONWP] But deleting session, so not returning
+[MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/a9c3ce44-a3b1-4380-84a2-41d9d114070a 200 1543 ms - 76 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},{},{"desiredCapabilities":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}]
+[BaseDriver] Event 'newSessionRequested' logged at 1620907866679 (14:11:06 GMT+0200 (Mitteleuropäische Sommerzeit))
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"appPackage":"org.wikip... into desiredCapabilities object {"appPackage":"org.wikipedia","appActivity":".m...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   appPackage: org.wikipedia
+[Appium]   appActivity: .main.MainActivity
+[Appium]   app: C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk
+[Appium]   platformVersion: 8.0.0
+[Appium]   automationName: Appium
+[Appium]   platformName: Android
+[Appium]   deviceName: AndroidTestDevice
+[BaseDriver] Session created with session id: 410c4a74-1e4d-4c27-a665-59715df01ed2
+[AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 11.0.10
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Looking for a device with Android '8.0.0'
+[ADB] Setting device id to emulator-5554
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[AndroidDriver] Using device: emulator-5554
+[ADB] Checking whether adb is present
+[ADB] Setting device id to emulator-5554
+[BaseDriver] Using local app 'C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk'
+[AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","wait-for-device"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","echo","ping"]
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'undefined' and country: 'undefined'
+[Logcat] Starting logcat capture
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.settings"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.sdk"]
+[ADB] Current device property 'ro.build.version.sdk': 26
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.settings"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","dump","io.appium.settings"]
+[ADB] Got the following command chunks to execute: pm,grant,io.appium.settings,android.permission.WRITE_SETTINGS,;,pm,grant,io.appium.settings,android.permission.ACCESS_MOCK_LOCATION,;
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+[AndroidDriver] Pushing unlock helper app to device...
+[ADB] Getting install status for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","io.appium.unlock"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.unlock
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","package","io.appium.unlock"]
+[ADB] Checking whether aapt is present
+[ADB] The installed 'io.appium.unlock' package does not require upgrade (2 >= 2)
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.build.version.release"]
+[ADB] Current device property 'ro.build.version.release': 8.0.0
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","wm","size"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.model"]
+[ADB] Current device property 'ro.product.model': Android SDK built for x86
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.manufacturer"]
+[ADB] Current device property 'ro.product.manufacturer': Google
+[AndroidDriver] Remote apk path is /data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ls","/data/local/tmp/240ad0c3d6dce62da001ac7b60010205.apk"]
+[AndroidDriver] Checking if app is installed
+[ADB] Getting install status for org.wikipedia
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","list","packages","org.wikipedia"]
+[ADB] App is installed
+[AndroidDriver] Apk is already on remote and installed, resetting
+[AndroidDriver] Running fast reset (stop and clear)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","org.wikipedia"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","pm","clear","org.wikipedia"]
+[AndroidDriver] Extracting strings from apk C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk undefined C:\Users\MIKHAI~1\AppData\Local\Temp\org.wikipedia
+[ADB] Extracting strings for language: default
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","persist.sys.locale"]
+[ADB] Current device property 'persist.sys.locale': 
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","getprop","ro.product.locale"]
+[ADB] Current device property 'ro.product.locale': en-US
+[ADB] No strings.xml for language 'en', getting default strings.xml
+[ADB] Reading strings from converted strings.json
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\MIKHAI~1\\AppData\\Local\\Temp\\org.wikipedia\\strings.json","/data/local/tmp"]
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","forward","tcp:4724","tcp:4724"]
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","push","C:\\Users\\Mikhail Nersesov\\AppData\\Local\\appium-desktop\\app-1.5.0\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","org.wikipedia","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Device API level: 26
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\Users\Mikhail Nersesov\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","emulator-5554","shell","am","start","-W","-n","org.wikipedia/.main.MainActivity","-S"]
+[Appium] New AndroidDriver session created successfully, session 410c4a74-1e4d-4c27-a665-59715df01ed2 added to master session list
+[BaseDriver] Event 'newSessionStarted' logged at 1620907879083 (14:11:19 GMT+0200 (Mitteleuropäische Sommerzeit))
+[MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"AndroidTestDevice"},"appPackage":"org.wikipedia","appActivity":".main.MainActivity","app":"C:/Users/Mikhail Nersesov/Desktop/JavaAppiumAutomation-2/apks/org.wikipedia.apk","platformVersion":"8.0.0","automationName":"Appium","platformName":"Android","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceScreenSize":"1080x1920","deviceModel":"Android SDK built for x86","deviceManufacturer":"Google"}
+[HTTP] <-- POST /wd/hub/session 200 12405 ms - 931 
+[HTTP] --> POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/element {"using":"xpath","value":"//*[contains(@text,'Search Wikipedia')]"}
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'Search Wikipedia')]","410c4a74-1e4d-4c27-a665-59715df01ed2"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search Wikipedia')]","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search Wikipedia')]","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search Wikipedia')]' using 'XPATH' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[HTTP] <-- POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/element 200 811 ms - 87 
+[HTTP] --> POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/element/1/click {"id":"1"}
+[MJSONWP] Calling AppiumDriver.click() with args: ["1","410c4a74-1e4d-4c27-a665-59715df01ed2"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/element/1/click 200 161 ms - 76 
+[HTTP] --> POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/elements {"using":"xpath","value":"//*[contains(@text,'Search…')]"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//*[contains(@text,'Search…')]","410c4a74-1e4d-4c27-a665-59715df01ed2"]
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[BaseDriver] Waiting up to 0 ms for condition
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,'Search…')]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,'Search…')]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"2"}]
+[HTTP] <-- POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/elements 200 906 ms - 89 
+[HTTP] --> POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/element/2/value {"id":"2","value":["Appium"]}
+[MJSONWP] Calling AppiumDriver.setValue() with args: [["Appium"],"2","410c4a74-1e4d-4c27-a665-59715df01ed2"]
+[AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"Appium","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"Appium","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Appium
+[AndroidBootstrap] Received command result from bootstrap
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[MJSONWP] Responding to client with driver.setValue() result: true
+[HTTP] <-- POST /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2/element/2/value 200 5404 ms - 76 
+[HTTP] --> DELETE /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2 {}
+[MJSONWP] Calling AppiumDriver.deleteSession() with args: ["410c4a74-1e4d-4c27-a665-59715df01ed2"]
+[BaseDriver] Event 'quitSessionRequested' logged at 1620907886474 (14:11:26 GMT+0200 (Mitteleuropäische Sommerzeit))
+[Appium] Removing session 410c4a74-1e4d-4c27-a665-59715df01ed2 from our master session list
+[AndroidDriver] Shutting down Android driver
+[ADB] Getting connected devices...
+[ADB] Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+ Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[Appium] Had trouble ending session 410c4a74-1e4d-4c27-a665-59715df01ed2: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+[MJSONWP] Encountered internal error running command: Error: Error while getting connected devices. Original error: Unexpected output while trying to get devices. output was: 
+    at Object.wrappedLogger.errorAndThrow (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-support\lib\logging.js:69:13)
+    at ADB.callee$0$0$ (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:174:9)
+    at tryCatch (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Mikhail Nersesov\AppData\Local\appium-desktop\app-1.5.0\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at 
+[HTTP] <-- DELETE /wd/hub/session/410c4a74-1e4d-4c27-a665-59715df01ed2 500 77 ms - 285 
